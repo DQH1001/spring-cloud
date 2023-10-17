@@ -10,6 +10,10 @@ import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.search.aggregations.AggregationBuilders;
 import org.elasticsearch.search.aggregations.Aggregations;
 import org.elasticsearch.search.aggregations.bucket.terms.Terms;
+import org.elasticsearch.search.suggest.Suggest;
+import org.elasticsearch.search.suggest.SuggestBuilder;
+import org.elasticsearch.search.suggest.SuggestBuilders;
+import org.elasticsearch.search.suggest.completion.CompletionSuggestion;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -55,6 +59,27 @@ public class HotelAggregationTest {
 			String key = bucket.getKeyAsString();
 			long count = bucket.getDocCount();
 			System.out.println(key + " " + count);
+		}
+	}
+
+	@Test
+	void aa() throws IOException {
+		SearchRequest request = new SearchRequest("hotel");
+		request.source()
+				.suggest(new SuggestBuilder().addSuggestion(
+						"mySuggestion",
+						SuggestBuilders
+								.completionSuggestion("suggestion")
+								.prefix("hg")
+								.skipDuplicates(true)
+								.size(10))
+				);
+		SearchResponse response = client.search(request, RequestOptions.DEFAULT);
+		Suggest suggest = response.getSuggest();
+		CompletionSuggestion mySuggestion = suggest.getSuggestion("mySuggestion");
+		for (CompletionSuggestion.Entry.Option option : mySuggestion.getOptions()) {
+			String text = option.getText().toString();
+			System.out.println(text);
 		}
 	}
 }

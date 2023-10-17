@@ -24,4 +24,9 @@ public class HotelController {
 	Map<String, List<String>> filters(@RequestBody RequestParams params){
 		return iHotelService.filters(params);
 	}
+
+	@GetMapping("/suggestion")
+	List<String> getSuggestions(@RequestParam String key){
+		return iHotelService.getSuggestions(key);
+	}
 }
