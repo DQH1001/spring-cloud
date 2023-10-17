@@ -3,7 +3,7 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/mq-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/hotel-demo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
