@@ -8,12 +8,15 @@ import cn.itcast.hotel.pojo.RequestParams;
 import cn.itcast.hotel.service.IHotelService;
 import com.alibaba.fastjson.JSON;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import org.elasticsearch.action.delete.DeleteRequest;
+import org.elasticsearch.action.index.IndexRequest;
 import org.elasticsearch.action.search.SearchRequest;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.client.RequestOptions;
 import org.elasticsearch.client.RestHighLevelClient;
 import org.elasticsearch.common.geo.GeoPoint;
 import org.elasticsearch.common.unit.DistanceUnit;
+import org.elasticsearch.common.xcontent.XContentType;
 import org.elasticsearch.index.query.BoolQueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilder;
@@ -136,6 +139,33 @@ public class HotelService extends ServiceImpl<HotelMapper, Hotel> implements IHo
 				data.add(option.getText().toString());
 			}
 			return data;
+		} catch (IOException e) {
+			throw new RuntimeException(e);
+		}
+	}
+
+	@Override
+	public void deleteById(Long id) {
+		try {
+			DeleteRequest request = new DeleteRequest("hotel", id.toString());
+			client.delete(request, RequestOptions.DEFAULT);
+		} catch (IOException e) {
+			throw new RuntimeException(e);
+		}
+	}
+
+	@Override
+	public void insertById(Long id) {
+		try {
+			Hotel hotel = getById(id);
+			// 1.创建request对象
+			IndexRequest request = new IndexRequest("hotel").id(hotel.getId().toString());
+
+			// 2.请求的dsl语句
+			request.source(JSON.toJSONString(hotel), XContentType.JSON);
+
+			// 3.发起请求
+			client.index(request, RequestOptions.DEFAULT);
 		} catch (IOException e) {
 			throw new RuntimeException(e);
 		}

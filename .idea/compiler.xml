@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hotel-demo" />
+        <module name="hotel-admin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -38,6 +39,7 @@
       <module name="eureka-server" options="-parameters" />
       <module name="feign-api" options="-parameters" />
       <module name="gateway" options="-parameters" />
+      <module name="hotel-admin" options="-parameters" />
       <module name="hotel-demo" options="-parameters" />
       <module name="order-service" options="-parameters" />
       <module name="order-service (1) (cn.itcast.demo)" options="-parameters" />

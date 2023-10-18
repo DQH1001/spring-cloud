@@ -8,8 +8,8 @@ import lombok.Data;
 @Data
 @TableName("tb_hotel")
 public class Hotel {
-    @TableId(type = IdType.INPUT)
-    private Long id;
+    @TableId(type = IdType.AUTO)
+    private Integer id;
     private String name;
     private String address;
     private Integer price;
