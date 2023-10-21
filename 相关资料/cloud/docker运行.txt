@@ -1,0 +1,61 @@
+netstat -aon|findstr "8080"
+tskill 5896
+
+docker run \
+--name mysql \
+-e MYSQL_ROOT_PASSWORD=123456 \
+-p 3306:3306 \
+-v /tmp/mysql/conf/hmy.cnf:/etc/mysql/conf.d/hmy.cnf \
+-v /tmp/mysql/data:/var/lib/mysql \
+-d \
+mysql:5.7.25
+
+docker run \
+-e RABBITMQ_DEFAULT_USER=itcast \
+-e RABBITMQ_DEFAULT_PASS=123321 \
+--name mq \
+--hostname mq1 \
+-p 15672:15672 \
+-p 5672:5672 \
+-d \
+rabbitmq:3-management
+
+docker run -d \
+--name es \
+-e "ES_JAVA_OPTS=-Xms512m -Xmx512m" \
+-e "discovery.type=single-node" \
+-v es-data:/usr/share/elasticsearch/data \
+-v es-plugins:/usr/share/elasticsearch/plugins \
+--privileged \
+--network es-net \
+-p 9200:9200 \
+-p 9300:9300 \
+elasticsearch:7.12.1
+
+docker run -d \
+--name kibana \
+-e ELASTICSEARCH_HOSTS=http://es:9200 \
+--network=es-net \
+-p 5601:5601  \
+kibana:7.12.1
+
+docker pull nacos/nacos-server:v2.1.1
+docker run --name nacos -e MODE=standalone -p 8848:8848 -p 9848:9848 -p 9849:9849 -d nacos/nacos-server:v2.1.1
+docker run --network cloud --name nacos -e MODE=standalone -p 8848:8848 -p 9848:9848 -p 9849:9849 -d nacos/nacos-server:v2.1.1
+
+docker build -t order:1.0 /root/sentinel/order/
+docker run --name order -p 8088:8088 -d order:1.0
+
+docker build -t user:1.0 /root/sentinel/user/
+docker run --name user -p 8081:8081 -d user:1.0
+
+
+docker run \
+--name mysql \
+--network cloud \
+-e MYSQL_ROOT_PASSWORD=123456 \
+-p 3306:3306 \
+-v /tmp/mysql/conf/hmy.cnf:/etc/mysql/conf.d/hmy.cnf \
+-v /tmp/mysql/data:/var/lib/mysql \
+-d \
+mysql:5.7.25
