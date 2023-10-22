@@ -18,11 +18,7 @@ spring:
     sentinel:
       transport:
         dashboard: 192.168.1.103:8080
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
+      web-context-unify: false #关闭context整合
 mybatis:
   type-aliases-package: cn.itcast.user.pojo
   configuration:

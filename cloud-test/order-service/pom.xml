@@ -51,14 +51,15 @@
             <artifactId>feign-api</artifactId>
             <version>1.0</version>
         </dependency>
+        <!--引入sentinel-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
         </dependency>
-        <!-- 引入监控actuator，用于暴露endpoint端点给sentinel-->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-web-servlet</artifactId>
+            <version>1.8.0</version>
         </dependency>
     </dependencies>
     <build>
