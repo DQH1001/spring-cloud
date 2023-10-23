@@ -16,6 +16,8 @@ public class FilterConfig {
 	public FilterRegistrationBean sentinelFilterRegistration(){
 		FilterRegistrationBean<Filter> registration = new FilterRegistrationBean<>();
 		registration.setFilter(new CommonFilter());
+		// 入口资源关闭聚合
+		registration.addInitParameter(CommonFilter.WEB_CONTEXT_UNIFY, "false");
 		registration.setUrlPatterns(Collections.singleton("/*"));
 		registration.setName("sentinelFilter");
 		registration.setOrder(1);
