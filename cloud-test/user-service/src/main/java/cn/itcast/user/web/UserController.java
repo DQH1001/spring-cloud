@@ -40,6 +40,15 @@ public class UserController {
     @GetMapping("/{id}")
     public User queryById(@PathVariable("id") Long id,
                           @RequestHeader(value = "Truth", required = false) String truth) {
+        if (id == 1){
+            try {
+                Thread.sleep(50);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        } else if (id == 2) {
+            throw new RuntimeException("触发异常");
+        }
         log.info(truth);
         return userService.queryById(id);
     }

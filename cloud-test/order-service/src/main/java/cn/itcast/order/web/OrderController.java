@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.servlet.http.HttpServletRequest;
+
 @RestController
 @RequestMapping("order")
 public class OrderController {
@@ -24,8 +26,9 @@ public class OrderController {
 	}
 
 	@GetMapping("query")
-	public String queryOrder() {
+	public String queryOrder(HttpServletRequest request) {
 		orderService.queryGoods();
+		System.out.println("origin:" + request.getHeader("origin"));
 		return "查询订单成功";
 	}
 

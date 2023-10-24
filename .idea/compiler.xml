@@ -7,52 +7,43 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hotel-admin" />
+        <module name="order-service" />
+        <module name="user-service" />
+        <module name="feign-api" />
+        <module name="gateway" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="11">
       <module name="cloud-demo" target="1.8" />
-      <module name="cloud-test" target="1.8" />
-      <module name="consumer" target="1.8" />
       <module name="eureka-server" target="1.8" />
-      <module name="feign-api" target="1.8" />
-      <module name="gateway" target="1.8" />
-      <module name="hotel-admin" target="1.8" />
-      <module name="hotel-demo" target="1.8" />
-      <module name="mq-demo" target="1.8" />
-      <module name="order-service" target="1.8" />
+      <module name="feign-api (1) (cn.itcast.demo)" target="1.8" />
+      <module name="feign-api (2) (cn.itcast.test)" target="1.8" />
+      <module name="gateway (1) (cn.itcast.demo)" target="1.8" />
+      <module name="gateway (2) (org.example)" target="1.8" />
+      <module name="order-service (1)" target="1.8" />
       <module name="order-service (1) (cn.itcast.demo)" target="1.8" />
+      <module name="order-service (2)" target="1.8" />
       <module name="order-service (2) (cn.itcast.test)" target="1.8" />
-      <module name="publisher" target="1.8" />
-      <module name="qq" target="1.8" />
-      <module name="rrccvb" target="1.8" />
-      <module name="untitled" target="1.8" />
-      <module name="user-service" target="1.8" />
-      <module name="user-service (1)" target="1.8" />
       <module name="user-service (1) (cn.itcast.demo)" target="1.8" />
-      <module name="user-service (2)" target="1.8" />
       <module name="user-service (2) (cn.itcast.test)" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="consumer" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="feign-api" options="-parameters" />
+      <module name="feign-api (1) (cn.itcast.demo)" options="-parameters" />
+      <module name="feign-api (2) (cn.itcast.test)" options="-parameters" />
       <module name="gateway" options="-parameters" />
-      <module name="hotel-admin" options="-parameters" />
-      <module name="hotel-demo" options="-parameters" />
+      <module name="gateway (1) (cn.itcast.demo)" options="-parameters" />
+      <module name="gateway (2) (org.example)" options="-parameters" />
       <module name="order-service" options="-parameters" />
+      <module name="order-service (1)" options="-parameters" />
       <module name="order-service (1) (cn.itcast.demo)" options="-parameters" />
+      <module name="order-service (2)" options="-parameters" />
       <module name="order-service (2) (cn.itcast.test)" options="-parameters" />
-      <module name="publisher" options="-parameters" />
-      <module name="qq" options="-parameters" />
-      <module name="rrccvb" options="-parameters" />
-      <module name="untitled" options="-parameters" />
       <module name="user-service" options="-parameters" />
-      <module name="user-service (1)" options="-parameters" />
       <module name="user-service (1) (cn.itcast.demo)" options="-parameters" />
-      <module name="user-service (2)" options="-parameters" />
       <module name="user-service (2) (cn.itcast.test)" options="-parameters" />
     </option>
   </component>
