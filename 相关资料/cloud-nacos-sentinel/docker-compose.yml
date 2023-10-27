@@ -1,0 +1,50 @@
+version: '2.2'
+services:
+#  mysql:
+#    image: mysql:5.7.25
+#    container_name: mysql
+#    environment:
+#      - MYSQL_ROOT_PASSWORD=123456
+#    volumes:
+#      - /tmp/mysql/conf/hmy.cnf:/etc/mysql/conf.d/hmy.cnf
+#      - /tmp/mysql/data:/var/lib/mysql
+#    ports:
+#      - 3306:3306
+#    networks:
+#      - cloud
+  nacos:
+    image: nacos/nacos-server:v2.1.1
+    container_name: nacos
+    environment:
+      - MODE=standalone
+    ports:
+      - 8848:8848
+      - 9848:9848
+      - 9849:9849
+    networks:
+      - cloud
+  orderserver:
+    image: order:1.0
+    container_name: order
+    ports:
+      - 8088:8088 
+    networks:
+      - cloud
+  userserver:
+    image: user:1.0
+    container_name: user
+    ports:
+      - 8081:8081 
+    networks:
+      - cloud
+volumes:
+  nacos:
+    driver: local
+  order:
+    driver: local
+  user:
+    driver: local
+
+networks:
+  cloud:
+    driver: bridge
