@@ -5,55 +5,83 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1afe26d0-ee2c-4246-a97c-151c8b0187bc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ideaWorkPlace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ideaWorkPlace.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210402161102887.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210402161130261.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210402161843337.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210402162008280.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210402162251093.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210402162350977.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210402162526774.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210402162630427.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210402162709515.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210402163715580.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210402163858429.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210402164414827.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210402172334810.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210618201340086.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210618201412878.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210618201607831.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210618201726280.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210618201912078.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210618202047575.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210618202322301.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210618202334536.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210618202433356.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210618202449881.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210618202501928.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210618202701492.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210715193149837.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210715193224094.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210715193334367.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210715193414601.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210715193730096.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210715193838719.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210715193914039.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210715194137982.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210715194413178.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210715195053807.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210715195144130.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210715195410764.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210715195844978.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210715200155537.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210715200243194.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210715200336526.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/docker/assets/image-20210417133020614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/docker/assets/image-20210418154704436.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/docker/assets/image-20210418215737662.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/es/assets/image-20201115230147799.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/es/assets/image-20201115230900504.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/es/assets/image-20210109105135812.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/es/assets/image-20210506101053676.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/es/assets/image-20210506102630393.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/es/assets/image-20210506110249144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/es/assets/image-20210506110704293.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/es/assets/image-20210506112225508.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/es/assets/image-20210510165308064.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/mq/assets/image-20210423191210349.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/分布式事务seata/assets/AccountServiceTCC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/分布式事务seata/assets/AccountServiceTCCImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/分布式事务seata/assets/image-20210622202357640.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/分布式事务seata/assets/image-20210622202515014.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/分布式事务seata/assets/image-20210622202622874.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/分布式事务seata/assets/image-20210622203609227.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/分布式事务seata/assets/image-20210622204145159.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/分布式事务seata/assets/image-20210622205427318.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/分布式事务seata/assets/image-20210622205615487.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/分布式事务seata/assets/image-20210622205901450.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/分布式事务seata/assets/image-20210624151150840.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/分布式事务seata/assets/image-20210624151221747.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/分布式事务seata/assets/image-20210624151507072.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/分布式事务seata/assets/image-20210624152317026.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0f9f91eddc7ce0d10c76eec1f429f01ca51361db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/0/10e7d2287d250109cc4585609beca039abd8467b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/2/12f556ee685522020c566c9fd7ab707cbd29d58d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/239ccbc5e8455080a7977b7bb4a31bbff43f621c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/f/3f2f9ea80705997aae49eb5adf744bf888752c13" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/458a745f1bc275b7fdfc61c7590bbd0f1f96a6ee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/b/5b21cbd285b09679aa10e39ad43208243d26035e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/70f9b4373a322c412d053651e49a9e2f2a6e0d46" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/9/99a97993e36a04d522b1f6ab8596bac44ffcfe95" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9f89bf04619fa25ff3515f3992408dd2be462db8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/f/af19661d05e3678c89b327f2e8e54b6ad8c6a904" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c14ce3639eb237851b2e513a34625f2fe001531e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c5666e19d4108e560a71eb7cd7fbd54d78d23a7f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c8bfdf1525c919531e2987bffa7751f8fc5b8011" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/8/f8bf83dea4ce5172107ff2ba4ae281aff3c07ed6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/feaa004a531ef25b3718d232d261648cb82330e7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/f/0f9f91eddc7ce0d10c76eec1f429f01ca51361db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/0/10e7d2287d250109cc4585609beca039abd8467b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/2/12f556ee685522020c566c9fd7ab707cbd29d58d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/3/239ccbc5e8455080a7977b7bb4a31bbff43f621c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/f/3f2f9ea80705997aae49eb5adf744bf888752c13" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/5/458a745f1bc275b7fdfc61c7590bbd0f1f96a6ee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/b/5b21cbd285b09679aa10e39ad43208243d26035e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/0/70f9b4373a322c412d053651e49a9e2f2a6e0d46" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/9/99a97993e36a04d522b1f6ab8596bac44ffcfe95" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/f/9f89bf04619fa25ff3515f3992408dd2be462db8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/f/af19661d05e3678c89b327f2e8e54b6ad8c6a904" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/1/c14ce3639eb237851b2e513a34625f2fe001531e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/5/c5666e19d4108e560a71eb7cd7fbd54d78d23a7f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/8/c8bfdf1525c919531e2987bffa7751f8fc5b8011" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/8/f8bf83dea4ce5172107ff2ba4ae281aff3c07ed6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/e/feaa004a531ef25b3718d232d261648cb82330e7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/相关资料/cloud/Nacos安装指南.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/相关资料/cloud/cloud-order.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/相关资料/cloud/cloud-user.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/相关资料/cloud/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/相关资料/cloud/docker运行.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/相关资料/cloud/sentinel-dashboard-1.8.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/相关资料/cloud/sentinel规则持久化.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-demo/account-service/src/main/java/cn/itcast/account/service/impl/AccountTCCServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/seata-demo/account-service/src/main/java/cn/itcast/account/service/impl/AccountTCCServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-demo/account-service/src/main/java/cn/itcast/account/web/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/seata-demo/account-service/src/main/java/cn/itcast/account/web/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-demo/account-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-demo/account-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-demo/order-service/src/main/java/cn/itcast/order/web/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/seata-demo/order-service/src/main/java/cn/itcast/order/web/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-demo/order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-demo/order-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-demo/storage-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-demo/storage-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +108,9 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2XFQCWpY2l4DCxxZZD16FYlumZm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -89,14 +120,23 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/software/devlop/env/jdk/jdk1.8",
+    "last_opened_file_path": "C:/software/devlop/other/ideaWorkPlace/相关资料/cloud-nacos-sentinel/assets",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AccountApplication">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\software\devlop\other\ideaWorkPlace\相关资料\cloud-nacos-sentinel\assets" />
+      <recent name="C:\software\devlop\other\ideaWorkPlace\相关资料\docker" />
+      <recent name="C:\software\devlop\other\ideaWorkPlace\相关资料\es" />
+      <recent name="C:\software\devlop\other\ideaWorkPlace\相关资料\mq" />
+      <recent name="C:\software\devlop\other\ideaWorkPlace\相关资料\cloud-nacos-sentinel" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.StorageApplication">
     <configuration name="AccountApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.itcast.account.AccountApplication" />
       <module name="account-service" />
@@ -138,9 +178,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AccountApplication" />
-        <item itemvalue="Application.OrderApplication" />
         <item itemvalue="Application.StorageApplication" />
+        <item itemvalue="Application.OrderApplication" />
+        <item itemvalue="Application.AccountApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -154,5 +194,16 @@
       <updated>1698222222743</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
