@@ -5,88 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1afe26d0-ee2c-4246-a97c-151c8b0187bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210402161102887.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210402161130261.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210402161843337.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210402162008280.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210402162251093.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210402162350977.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210402162526774.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210402162630427.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210402162709515.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210402163715580.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210402163858429.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210402164414827.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210402172334810.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210618201340086.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210618201412878.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210618201607831.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210618201726280.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210618201912078.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210618202047575.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210618202322301.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210618202334536.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210618202433356.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210618202449881.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210618202501928.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210618202701492.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210715193149837.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210715193224094.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210715193334367.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210715193414601.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210715193730096.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210715193838719.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210715193914039.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210715194137982.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210715194413178.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210715195053807.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210715195144130.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210715195410764.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210715195844978.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210715200155537.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210715200243194.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/cloud-nacos-sentinel/assets/image-20210715200336526.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/docker/assets/image-20210417133020614.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/docker/assets/image-20210418154704436.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/docker/assets/image-20210418215737662.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/es/assets/image-20201115230147799.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/es/assets/image-20201115230900504.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/es/assets/image-20210109105135812.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/es/assets/image-20210506101053676.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/es/assets/image-20210506102630393.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/es/assets/image-20210506110249144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/es/assets/image-20210506110704293.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/es/assets/image-20210506112225508.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/es/assets/image-20210510165308064.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/mq/assets/image-20210423191210349.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/分布式事务seata/assets/AccountServiceTCC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/分布式事务seata/assets/AccountServiceTCCImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/分布式事务seata/assets/image-20210622202357640.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/分布式事务seata/assets/image-20210622202515014.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/分布式事务seata/assets/image-20210622202622874.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/分布式事务seata/assets/image-20210622203609227.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/分布式事务seata/assets/image-20210622204145159.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/分布式事务seata/assets/image-20210622205427318.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/分布式事务seata/assets/image-20210622205615487.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/分布式事务seata/assets/image-20210622205901450.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/分布式事务seata/assets/image-20210624151150840.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/分布式事务seata/assets/image-20210624151221747.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/分布式事务seata/assets/image-20210624151507072.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/分布式事务seata/assets/image-20210624152317026.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-demo/src/main/java/com/redis/RedisDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-demo/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-demo/src/test/java/com/redis/RedisStringTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/redis/Redis安装说明.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/redis/assets/image-20211211071712536.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/redis/assets/image-20211211080151539.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/redis/assets/image-20211211080339076.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/redis/assets/image-20211211080603710.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/redis/assets/image-20211211081716167.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/redis/assets/image-20211211082225509.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/redis/assets/image-20211211110439353.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/redis/assets/image-20211211110935819.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/redis/assets/image-20211211111351885.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/redis/assets/image-20211211111614483.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/redis/assets/image-20211214154938770.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/redis/assets/image-20211214155123841.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/redis/assets/image-20211214155406692.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/redis/assets/image-20211214155424842.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/redis/assets/image-20211214155804523.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/redis/assets/image-20211214155849495.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/redis/redis-6.2.6.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/相关资料/redis/resp-2022.2.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-demo/account-service/src/main/java/cn/itcast/account/service/impl/AccountTCCServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/seata-demo/account-service/src/main/java/cn/itcast/account/service/impl/AccountTCCServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-demo/account-service/src/main/java/cn/itcast/account/web/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/seata-demo/account-service/src/main/java/cn/itcast/account/web/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-demo/account-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-demo/account-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-demo/order-service/src/main/java/cn/itcast/order/web/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/seata-demo/order-service/src/main/java/cn/itcast/order/web/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-demo/order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-demo/order-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-demo/storage-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-demo/storage-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -120,7 +77,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/software/devlop/other/ideaWorkPlace/相关资料/cloud-nacos-sentinel/assets",
+    "last_opened_file_path": "C:/software/devlop/other/ideaWorkPlace/redis-demo/src/test/java/com/redis",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -129,20 +86,20 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\software\devlop\other\ideaWorkPlace\redis-demo\src\test\java\com\redis" />
+      <recent name="C:\software\devlop\other\ideaWorkPlace\相关资料\redis" />
       <recent name="C:\software\devlop\other\ideaWorkPlace\相关资料\cloud-nacos-sentinel\assets" />
       <recent name="C:\software\devlop\other\ideaWorkPlace\相关资料\docker" />
       <recent name="C:\software\devlop\other\ideaWorkPlace\相关资料\es" />
-      <recent name="C:\software\devlop\other\ideaWorkPlace\相关资料\mq" />
-      <recent name="C:\software\devlop\other\ideaWorkPlace\相关资料\cloud-nacos-sentinel" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StorageApplication">
-    <configuration name="AccountApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.account.AccountApplication" />
-      <module name="account-service" />
+  <component name="RunManager" selected="JUnit.RedisStringTests.testString">
+    <configuration name="RedisDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.redis.RedisDemoApplication" />
+      <module name="redis-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.account.*" />
+          <option name="PATTERN" value="com.redis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,37 +107,89 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.order.OrderApplication" />
-      <module name="order-service" />
+    <configuration name="RedisDemoApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redis-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.order.*" />
+          <option name="PATTERN" value="com.redis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.redis" />
+      <option name="MAIN_CLASS_NAME" value="com.redis.RedisDemoApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StorageApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.storage.StorageApplication" />
-      <module name="storage-service" />
+    <configuration name="RedisDemoApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redis-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.storage.*" />
+          <option name="PATTERN" value="com.redis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.redis" />
+      <option name="MAIN_CLASS_NAME" value="com.redis.RedisDemoApplicationTests" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisStringTests.testHash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redis-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.redis" />
+      <option name="MAIN_CLASS_NAME" value="com.redis.RedisStringTests" />
+      <option name="METHOD_NAME" value="testHash" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisStringTests.testString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redis-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.redis" />
+      <option name="MAIN_CLASS_NAME" value="com.redis.RedisStringTests" />
+      <option name="METHOD_NAME" value="testString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="seata-demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="seata-demo" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StorageApplication" />
-        <item itemvalue="Application.OrderApplication" />
-        <item itemvalue="Application.AccountApplication" />
+        <item itemvalue="JUnit.RedisStringTests.testString" />
+        <item itemvalue="JUnit.RedisStringTests.testHash" />
+        <item itemvalue="JUnit.RedisDemoApplicationTests.test" />
+        <item itemvalue="Application.RedisDemoApplication" />
+        <item itemvalue="JUnit.RedisDemoApplicationTests" />
       </list>
     </recent_temporary>
   </component>
