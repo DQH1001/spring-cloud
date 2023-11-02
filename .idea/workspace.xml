@@ -4,35 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1afe26d0-ee2c-4246-a97c-151c8b0187bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/redis-demo/src/main/java/com/redis/RedisDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-demo/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-demo/src/test/java/com/redis/RedisStringTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/redis/Redis安装说明.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/redis/assets/image-20211211071712536.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/redis/assets/image-20211211080151539.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/redis/assets/image-20211211080339076.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/redis/assets/image-20211211080603710.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/redis/assets/image-20211211081716167.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/redis/assets/image-20211211082225509.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/redis/assets/image-20211211110439353.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/redis/assets/image-20211211110935819.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/redis/assets/image-20211211111351885.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/redis/assets/image-20211211111614483.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/redis/assets/image-20211214154938770.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/redis/assets/image-20211214155123841.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/redis/assets/image-20211214155406692.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/redis/assets/image-20211214155424842.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/redis/assets/image-20211214155804523.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/redis/assets/image-20211214155849495.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/redis/redis-6.2.6.tar.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/相关资料/redis/resp-2022.2.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1afe26d0-ee2c-4246-a97c-151c8b0187bc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/spring-cloud" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -77,23 +49,36 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/software/devlop/other/ideaWorkPlace/redis-demo/src/test/java/com/redis",
-    "project.structure.last.edited": "Project",
+    "last_opened_file_path": "C:/software/devlop/other/ideaWorkPlace/相关资料/redis",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\software\devlop\other\ideaWorkPlace\redis-demo\src\test\java\com\redis" />
       <recent name="C:\software\devlop\other\ideaWorkPlace\相关资料\redis" />
+      <recent name="C:\software\devlop\other\ideaWorkPlace\redis-demo\src\test\java\com\redis" />
       <recent name="C:\software\devlop\other\ideaWorkPlace\相关资料\cloud-nacos-sentinel\assets" />
       <recent name="C:\software\devlop\other\ideaWorkPlace\相关资料\docker" />
       <recent name="C:\software\devlop\other\ideaWorkPlace\相关资料\es" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RedisStringTests.testString">
+  <component name="RunManager" selected="Application.HmDianPingApplication">
+    <configuration name="HmDianPingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hmdp.HmDianPingApplication" />
+      <module name="hm-dianping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hmdp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RedisDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.redis.RedisDemoApplication" />
       <module name="redis-demo" />
@@ -103,21 +88,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RedisDemoApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="redis-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.redis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.redis" />
-      <option name="MAIN_CLASS_NAME" value="com.redis.RedisDemoApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -185,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HmDianPingApplication" />
         <item itemvalue="JUnit.RedisStringTests.testString" />
         <item itemvalue="JUnit.RedisStringTests.testHash" />
         <item itemvalue="JUnit.RedisDemoApplicationTests.test" />
         <item itemvalue="Application.RedisDemoApplication" />
-        <item itemvalue="JUnit.RedisDemoApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -214,5 +184,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

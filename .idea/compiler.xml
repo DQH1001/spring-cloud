@@ -7,12 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="redis-demo" />
+        <module name="hm-dianping" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="account-service" target="1.8" />
       <module name="order-service" target="1.8" />
+      <module name="redis-demo" target="1.8" />
       <module name="seata-demo" target="1.8" />
       <module name="storage-service" target="1.8" />
     </bytecodeTargetLevel>
@@ -20,6 +21,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="account-service" options="-parameters" />
+      <module name="hm-dianping" options="-parameters" />
       <module name="order-service" options="-parameters" />
       <module name="redis-demo" options="-parameters" />
       <module name="storage-service" options="-parameters" />
