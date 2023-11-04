@@ -26,3 +26,4 @@
 - redis数据结构（string，list，hash，set，sortedset，geo，bitmap，hyperloglog）
 
 ## 6.redis-demo
+#### redisTemplate连接哨兵，设置读写分离
