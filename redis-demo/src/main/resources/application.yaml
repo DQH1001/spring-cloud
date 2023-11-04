@@ -1,14 +1,20 @@
 spring:
   redis:
-    host: 43.139.239.12
-    port: 7002
-    password: 123321
-    lettuce:
-      pool:
-        max-active: 8
-        max-idle: 8
-        min-idle: 0
-        max-wait: 100ms
+#    host: 43.139.239.12
+#    port: 7002
+#    password: 123321
+#    lettuce:
+#      pool:
+#        max-active: 8
+#        max-idle: 8
+#        min-idle: 0
+#        max-wait: 100ms
+    sentinel:
+      master: mymaster
+      nodes: # redis哨兵机制，sentinel集群
+        - 43.139.239.12:27001
+        - 43.139.239.12:27002
+        - 43.139.239.12:27003
 #    cluster:
 #      nodes:
 #        - 192.168.150.101:7001
