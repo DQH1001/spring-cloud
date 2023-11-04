@@ -1,11 +1,19 @@
 spring:
   redis:
     host: 43.139.239.12
-    port: 6379
+    port: 7002
     password: 123321
     lettuce:
       pool:
-        max-active: 8 # 最大连接
-        max-idle: 8 # 最大空闲连接
-        min-idle: 0 # 最小空闲连接
-        max-wait: 1000ms # 连接等待时间
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+        max-wait: 100ms
+#    cluster:
+#      nodes:
+#        - 192.168.150.101:7001
+#        - 192.168.150.101:7002
+#        - 192.168.150.101:7003
+#        - 192.168.150.101:8001
+#        - 192.168.150.101:8002
+#        - 192.168.150.101:8003

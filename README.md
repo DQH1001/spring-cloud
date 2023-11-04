@@ -24,3 +24,5 @@
 - redisson联锁解决主从一致性问题
 - redis消息队列（基于list结构模拟，pubsub，stream）
 - redis数据结构（string，list，hash，set，sortedset，geo，bitmap，hyperloglog）
+
+## 6.redis-demo
