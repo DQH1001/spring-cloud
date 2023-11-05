@@ -1,25 +1,24 @@
+logging:
+  level:
+    io.lettuce.core: debug
+  pattern:
+    dateformat: MM-dd HH:mm:ss:SSS
 spring:
   redis:
-#    host: 43.139.239.12
-#    port: 7002
-#    password: 123321
-#    lettuce:
-#      pool:
-#        max-active: 8
-#        max-idle: 8
-#        min-idle: 0
-#        max-wait: 100ms
-    sentinel:
-      master: mymaster
-      nodes: # redis哨兵机制，sentinel集群
-        - 43.139.239.12:27001
-        - 43.139.239.12:27002
-        - 43.139.239.12:27003
-#    cluster:
-#      nodes:
-#        - 192.168.150.101:7001
-#        - 192.168.150.101:7002
-#        - 192.168.150.101:7003
-#        - 192.168.150.101:8001
-#        - 192.168.150.101:8002
-#        - 192.168.150.101:8003
+    password: 123321
+#    sentinel:
+#      master: mymaster
+#      nodes: # redis哨兵机制，sentinel集群
+#        - 43.139.239.12:27001
+#        - 43.139.239.12:27002
+#        - 43.139.239.12:27003
+    cluster:
+      nodes:
+        - 43.139.239.12:7001
+        - 43.139.239.12:7002
+        - 43.139.239.12:7003
+        - 43.139.239.12:7004
+        - 43.139.239.12:8001
+        - 43.139.239.12:8002
+        - 43.139.239.12:8003
+      max-redirects: 3  # 获取失败 最大重定向次数
