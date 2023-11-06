@@ -4,7 +4,7 @@ spring:
   application:
     name: itemservice
   datasource:
-    url: jdbc:mysql://43.139.239.12:3306/heima?useSSL=false
+    url: jdbc:mysql://1.12.221.184:3306/heima?useSSL=false
     username: root
     password: 123
     driver-class-name: com.mysql.jdbc.Driver
