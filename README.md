@@ -36,3 +36,4 @@
 
 #### 功能说明
 - test/CaffeineTest：本地进程缓存
+- ItemController：进程缓存的使用
