@@ -27,3 +27,12 @@
 
 ## 6.redis-demo
 #### redisTemplate连接哨兵，分片集群，设置读写分离
+
+## 7.item-service
+#### 多级缓存项目
+- 搭建见 相关资料/redis/案例导入说明.md
+- item.sql为所需sql
+- item-service-nginx-1.18.0中html为前端页面，此nginx不要放到中文目录下运行
+
+#### 功能说明
+- test/CaffeineTest：本地进程缓存

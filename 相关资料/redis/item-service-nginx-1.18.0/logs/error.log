@@ -1,0 +1,6 @@
+2021/07/15 16:20:46 [notice] 27068#30284: signal process started
+2021/07/29 09:09:10 [error] 6804#13316: *2 CreateFile() "D:/lesson/heima127/code/hm-mall-admin/js/axios.min.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /js/axios.min.map HTTP/1.1", host: "localhost:9001"
+2021/07/29 09:09:13 [error] 6804#13316: *2 CreateFile() "D:/lesson/heima127/code/hm-mall-admin/js/axios.min.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /js/axios.min.map HTTP/1.1", host: "localhost:9001"
+2021/07/29 09:09:34 [notice] 3000#11316: signal process started
+2023/11/05 22:32:34 [emerg] 880#8096: CreateFile() "C:\software\devlop\other\ideaWorkPlace\spring-cloud\相关资料\redis\item-service-nginx-1.18.0/conf/nginx.conf" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page)
+2023/11/05 22:33:01 [emerg] 9944#6920: CreateFile() "C:\software\devlop\other\ideaWorkPlace\spring-cloud\相关资料\redis\item-service-nginx-1.18.0/conf/nginx.conf" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page)
