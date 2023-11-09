@@ -30,10 +30,23 @@
 
 ## 7.item-service
 #### 多级缓存项目
-- 搭建见 相关资料/redis/案例导入说明.md
+- 搭建见 相关资料/redis-nginx/案例导入说明.md
 - item.sql为所需sql
-- item-service-nginx-1.18.0中html为前端页面，此nginx不要放到中文目录下运行
 
-#### 功能说明
+## 7.1 本地进程缓存
 - test/CaffeineTest：本地进程缓存
 - ItemController：进程缓存的使用
+
+## 7.2 nginx+OpenResty工具+lua语言编程，实现nginx查redis，tomcat，并存为nginx缓存
+- redis-nginx/安装OpenResty.md
+- redis-nginx/nginx/item-service-nginx-1.18.0中html为前端页面，此nginx不要放到中文目录下运行
+- redis-nginx/nginx/openresty-nginx为所需的nginx配置
+- redis-nginx/nginx/*.lua为对应的lua文件
+- common.lua需放在/usr/local/openresty/lualib/下
+- item.lua需放在/usr/local/openresty/lua/下
+
+## 7.3 redis缓存预热
+- RedisHandler
+
+## 7.4 canal缓存同步
+- canal.ItemHandler

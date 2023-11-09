@@ -5,8 +5,8 @@ docker run \
 --name mysql \
 -e MYSQL_ROOT_PASSWORD=123456 \
 -p 3306:3306 \
--v /tmp/mysql/conf/hmy.cnf:/etc/mysql/conf.d/hmy.cnf \
--v /tmp/mysql/data:/var/lib/mysql \
+-v /software/mysql/conf/hmy.cnf:/etc/mysql/conf.d/hmy.cnf \
+-v /software/mysql/data:/var/lib/mysql \
 -d \
 mysql:5.7.25
 
@@ -20,8 +20,10 @@ docker run \
 -d \
 rabbitmq:3-management
 
+docker network create es-net
+
 docker run -d \
---name es \
+--name singleEs \
 -e "ES_JAVA_OPTS=-Xms512m -Xmx512m" \
 -e "discovery.type=single-node" \
 -v es-data:/usr/share/elasticsearch/data \
@@ -34,7 +36,7 @@ elasticsearch:7.12.1
 
 docker run -d \
 --name kibana \
--e ELASTICSEARCH_HOSTS=http://es:9200 \
+-e ELASTICSEARCH_HOSTS=http://singleEs:9200 \
 --network=es-net \
 -p 5601:5601  \
 kibana:7.12.1
@@ -55,7 +57,21 @@ docker run \
 --network cloud \
 -e MYSQL_ROOT_PASSWORD=123456 \
 -p 3306:3306 \
--v /tmp/mysql/conf/hmy.cnf:/etc/mysql/conf.d/hmy.cnf \
--v /tmp/mysql/data:/var/lib/mysql \
+-v /software/mysql/conf/hmy.cnf:/etc/mysql/conf.d/hmy.cnf \
+-v /software/mysql/data:/var/lib/mysql \
+-v /software/mysql/logs:/logs \
 -d \
 mysql:5.7.25
+
+
+docker run -p 11111:11111 --name canal \
+-e canal.destinations=heima \
+-e canal.instance.master.address=mysql:3306  \
+-e canal.instance.dbUsername=canal  \
+-e canal.instance.dbPassword=canal  \
+-e canal.instance.connectionCharset=UTF-8 \
+-e canal.instance.tsdb.enable=true \
+-e canal.instance.gtidon=false  \
+-e canal.instance.filter.regex=heima\\..* \
+--network heima \
+-d canal/canal-server:v1.1.5
