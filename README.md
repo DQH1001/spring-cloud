@@ -29,15 +29,15 @@
 #### redisTemplate连接哨兵，分片集群，设置读写分离
 
 ## 7.item-service
-#### 多级缓存项目
+### 多级缓存项目
 - 搭建见 相关资料/redis-nginx/案例导入说明.md
 - item.sql为所需sql
 
-## 7.1 本地进程缓存
+### 7.1 本地进程缓存
 - test/CaffeineTest：本地进程缓存
 - ItemController：进程缓存的使用
 
-## 7.2 nginx+OpenResty工具+lua语言编程，实现nginx查redis，tomcat，并存为nginx缓存
+### 7.2 nginx+OpenResty工具+lua语言编程，实现nginx查redis，tomcat，并存为nginx缓存
 - redis-nginx/安装OpenResty.md
 - redis-nginx/nginx/item-service-nginx-1.18.0中html为前端页面，此nginx不要放到中文目录下运行
 - redis-nginx/nginx/openresty-nginx为所需的nginx配置
@@ -45,8 +45,17 @@
 - common.lua需放在/usr/local/openresty/lualib/下
 - item.lua需放在/usr/local/openresty/lua/下
 
-## 7.3 redis缓存预热
+### 7.3 redis缓存预热
 - RedisHandler
 
-## 7.4 canal缓存同步
+### 7.4 canal缓存同步
 - canal.ItemHandler
+
+## 8 mq-advanced-demo
+### mq消息可靠问题，延迟消息，消息堆积，mq集群
+
+- 生产者消息确认机制
+- 消息持久化
+- 消费者消息确认机制
+- 消费者失败重试
+- 延迟交换机插件delayExchange
