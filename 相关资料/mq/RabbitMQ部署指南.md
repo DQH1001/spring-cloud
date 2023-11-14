@@ -146,11 +146,11 @@ rabbitmq-plugins enable rabbitmq_delayed_message_exchange
 
 我们先来看普通模式集群，我们的计划部署3节点的mq集群：
 
-| 主机名 | 控制台端口      | amqp通信端口    |
-| ------ | --------------- | --------------- |
-| mq1    | 8081 ---> 15672 | 8071 ---> 5672  |
-| mq2    | 8082 ---> 15672 | 8072 ---> 5672  |
-| mq3    | 8083 ---> 15672 | 8073  ---> 5672 |
+| 主机名 | 控制台端口           | amqp通信端口    |
+| ------ |-----------------| --------------- |
+| mq1    | 8091 ---> 15672 | 8071 ---> 5672  |
+| mq2    | 8092 ---> 15672 | 8072 ---> 5672  |
+| mq3    | 8093 ---> 15672 | 8073  ---> 5672 |
 
 
 
@@ -181,7 +181,7 @@ docker exec -it mq cat /var/lib/rabbitmq/.erlang.cookie
 可以看到cookie值如下：
 
 ```sh
-FXZMCVGLBIXZCDEMMVZQ
+CKYLOOBYBXJGNNMCHWXH
 ```
 
 
@@ -192,9 +192,12 @@ FXZMCVGLBIXZCDEMMVZQ
 docker rm -f mq
 ```
 
-
-
 ![image-20210717212345165](assets/image-20210717212345165.png)
+
+可能需要清理一下之前不用的数据卷
+```sh
+docker volume prune
+```
 
 
 
@@ -228,7 +231,7 @@ cd /tmp
 # 创建cookie文件
 touch .erlang.cookie
 # 写入cookie
-echo "FXZMCVGLBIXZCDEMMVZQ" > .erlang.cookie
+echo "CKYLOOBYBXJGNNMCHWXH" > .erlang.cookie
 # 修改cookie文件的权限
 chmod 600 .erlang.cookie
 ```
@@ -274,11 +277,6 @@ docker network create mq-net
 ```
 
 
-
-docker volume create 
-
-
-
 运行命令
 
 ```sh
@@ -290,7 +288,7 @@ docker run -d --net mq-net \
 --name mq1 \
 --hostname mq1 \
 -p 8071:5672 \
--p 8081:15672 \
+-p 8091:15672 \
 rabbitmq:3.8-management
 ```
 
@@ -305,7 +303,7 @@ docker run -d --net mq-net \
 --name mq2 \
 --hostname mq2 \
 -p 8072:5672 \
--p 8082:15672 \
+-p 8092:15672 \
 rabbitmq:3.8-management
 ```
 
@@ -320,7 +318,7 @@ docker run -d --net mq-net \
 --name mq3 \
 --hostname mq3 \
 -p 8073:5672 \
--p 8083:15672 \
+-p 8093:15672 \
 rabbitmq:3.8-management
 ```
 
