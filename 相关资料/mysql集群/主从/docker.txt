@@ -1,0 +1,25 @@
+docker network create mysql-cluster
+# docker ps -aqf "name=mysql"
+# docker network connect mysql-cluster d14c4b608f44
+
+docker run \
+--name mysql-slave1 \
+-e MYSQL_ROOT_PASSWORD=123456 \
+-p 3307:3306 \
+-p 33070:33060 \
+-v /software/mysql-slave/3307/conf/hmy.cnf:/etc/mysql/conf.d/hmy.cnf \
+-v /software/mysql-slave/3307/data:/var/lib/mysql \
+--network mysql-cluster \
+-d \
+mysql:5.7.25
+
+docker run \
+--name mysql-slave2 \
+-e MYSQL_ROOT_PASSWORD=123456 \
+-p 3308:3306 \
+-p 33080:33060 \
+-v /software/mysql-slave/3308/conf/hmy.cnf:/etc/mysql/conf.d/hmy.cnf \
+-v /software/mysql-slave/3308/data:/var/lib/mysql \
+--network mysql-cluster \
+-d \
+mysql:5.7.25

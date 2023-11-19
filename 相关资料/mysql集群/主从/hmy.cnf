@@ -1,0 +1,18 @@
+# 主库3307
+[mysqld]
+skip-name-resolve
+character_set_server=utf8
+datadir=/software/mysql-slave/3307/data
+server-id=1001
+log-bin=/var/lib/mysql/mysql-bin
+sync_binlog=1
+
+# 从库3308
+[mysqld]
+skip-name-resolve
+character_set_server=utf8
+datadir=/software/mysql-slave/3308/data
+server-id=1002
+relay_log=slave-01-relay
+read-only=1
+
