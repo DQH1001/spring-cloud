@@ -5,9 +5,9 @@ logging:
     cn.itcast: debug
 spring:
   rabbitmq:
-#    host: 1.12.221.184 # rabbitMQ的ip地址
-#    port: 5672 # 端口
-    addresses: 1.12.221.184:8071, 1.12.221.184:8072, 1.12.221.184:8073
+    host: 1.12.221.184 # rabbitMQ的ip地址
+    port: 5672 # 端口
+#    addresses: 1.12.221.184:8071, 1.12.221.184:8072, 1.12.221.184:8073
     username: itcast
     password: 123321
     virtual-host: /
